@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calico.WitchSaga", "Servers\Calico.WitchSaga\Calico.WitchSaga.csproj", "{16E21239-3048-4A15-A540-E99E878A9DC2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{788FF549-2967-42F0-9A8D-8C9C837AF895}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{BCD2686F-514A-482A-A56C-9808622DB627}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calico.FibonacciModule", "Modules\Calico.FibonacciModule\Calico.FibonacciModule.csproj", "{030BA3DB-5984-4839-A652-734877A342CB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calico.KillCalculatorModule", "Modules\Calico.KillCalculatorModule\Calico.KillCalculatorModule.csproj", "{ED991FDE-4E2A-44AF-9816-57D9C25F2553}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calico.MatrixModule", "Modules\Calico.MatrixModule\Calico.MatrixModule.csproj", "{953776D4-7702-49AE-9739-99658B96C1E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calico.FibonacciModule.Test", "Modules\Calico.FibonacciModule\Test\Calico.FibonacciModule.Test.csproj", "{E00B4DB4-F230-47C8-BFFD-4B4358570595}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calico.KillCalculatorModule.Test", "Modules\Calico.KillCalculatorModule\Test\Calico.KillCalculatorModule.Test.csproj", "{1F8676E9-E6F9-4577-855D-0B6DD671E79C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{16E21239-3048-4A15-A540-E99E878A9DC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16E21239-3048-4A15-A540-E99E878A9DC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16E21239-3048-4A15-A540-E99E878A9DC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16E21239-3048-4A15-A540-E99E878A9DC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{030BA3DB-5984-4839-A652-734877A342CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{030BA3DB-5984-4839-A652-734877A342CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{030BA3DB-5984-4839-A652-734877A342CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{030BA3DB-5984-4839-A652-734877A342CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED991FDE-4E2A-44AF-9816-57D9C25F2553}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED991FDE-4E2A-44AF-9816-57D9C25F2553}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED991FDE-4E2A-44AF-9816-57D9C25F2553}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED991FDE-4E2A-44AF-9816-57D9C25F2553}.Release|Any CPU.Build.0 = Release|Any CPU
+		{953776D4-7702-49AE-9739-99658B96C1E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{953776D4-7702-49AE-9739-99658B96C1E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{953776D4-7702-49AE-9739-99658B96C1E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{953776D4-7702-49AE-9739-99658B96C1E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E00B4DB4-F230-47C8-BFFD-4B4358570595}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E00B4DB4-F230-47C8-BFFD-4B4358570595}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E00B4DB4-F230-47C8-BFFD-4B4358570595}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E00B4DB4-F230-47C8-BFFD-4B4358570595}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F8676E9-E6F9-4577-855D-0B6DD671E79C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F8676E9-E6F9-4577-855D-0B6DD671E79C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F8676E9-E6F9-4577-855D-0B6DD671E79C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F8676E9-E6F9-4577-855D-0B6DD671E79C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{030BA3DB-5984-4839-A652-734877A342CB} = {788FF549-2967-42F0-9A8D-8C9C837AF895}
+		{ED991FDE-4E2A-44AF-9816-57D9C25F2553} = {788FF549-2967-42F0-9A8D-8C9C837AF895}
+		{953776D4-7702-49AE-9739-99658B96C1E9} = {788FF549-2967-42F0-9A8D-8C9C837AF895}
+		{E00B4DB4-F230-47C8-BFFD-4B4358570595} = {BCD2686F-514A-482A-A56C-9808622DB627}
+		{1F8676E9-E6F9-4577-855D-0B6DD671E79C} = {BCD2686F-514A-482A-A56C-9808622DB627}
+	EndGlobalSection
+EndGlobal
