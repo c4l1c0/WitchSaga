@@ -1,15 +1,17 @@
-using System.Numerics;
 using Calico.KillCalculatorModule;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Calico.WitchSaga.Controllers;
 
-public class KillCalculatorController : Controller
+[ApiController]
+[Route("api/[controller]/[action]")]
+
+public class KillCalculatorController : ControllerBase
 {
-    [HttpGet]
+    [HttpPost]
     public double Calculate(
         [FromServices] IKillCalculator calculator, 
-        IDeathInfo[] deathInfos)
+        [FromBody] DeathInfo[] deathInfos)
     {
         return calculator.GetAverageKills(deathInfos);
     }
